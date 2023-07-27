@@ -36,10 +36,49 @@ Next, the compiler takes the preprocessed source code and translates it into obj
 
 Finally, during linking, the linker takes the object code and combines it with any necessary libraries to create an executable program.
 
-I hope this helps! Let me know if you have any more questions. 😊
-
 Source:
 
 - How C++ Works: Understanding Compilation | Toptal®. https://www.toptal.com/c-plus-plus/c-plus-plus-understanding-compilation.
 - Learn C++ | Codecademy. https://www.codecademy.com/learn/learn-c-plus-plus.
 - C/C++ Preprocessors - GeeksforGeeks. https://www.geeksforgeeks.org/cc-preprocessors/.
+
+### Lesson 7
+
+#### C++ Syntax :
+
+- { } these are called curly braces that contains a block of code
+- ; This is a semi colon that each line of code must end with it
+- << Stream insertion operator
+- Text is wrapped in double quotes
+- Spaces are Ignored
+- backslah (\\) is apecial character that do something different such as:
+  (\\n) that enters a new line
+
+### Lesson 8 (Comments)
+
+#### Comments Syntax:
+
+`// This is a comment` (single line comment)
+`/* This`
+`is`
+`a`
+`comment */` (Multiple Line Comment)
+
+#### Use Cases of comments:
+
+Comments in C++ are used to explain the code and make it more readable. They can also be used to prevent execution when testing alternative code¹. Some common use cases for comments in C++ include:
+
+- Summarizing an algorithm
+- Identifying a variable’s purpose
+- Clarifying a code segment that appears unclear
+- Making a program more readable by providing an overall description of the code
+- Helping with debugging by making it easier to skip the execution of some parts of the code
+- Recapping all the information of the code quickly when a program or code is reused after long periods of time²
+
+Source:
+
+- C++ Comments - W3Schools. https://www.w3schools.com/cpp/cpp_comments.asp.
+- C++ Comments - GeeksforGeeks. https://www.geeksforgeeks.org/cpp-comments/.
+- C++ Comments - Programiz. https://www.programiz.com/cpp-programming/comments.
+- C++ Comments | C-style comments in C++ - Scaler Topics. https://www.scaler.com/topics/cpp/comments-in-cpp/.
+- Comments - cppreference.com. https://en.cppreference.com/w/c/comment.
