@@ -59,10 +59,15 @@ Source:
 #### Comments Syntax:
 
 `// This is a comment` (single line comment)
-`/* This`
-`is`
-`a`
-`comment */` (Multiple Line Comment)
+
+```
+/* This
+is
+a
+comment */
+```
+
+(Multiple Line Comment)
 
 #### Use Cases of comments:
 
@@ -91,3 +96,74 @@ Source:
 - [x] [C++ Translation Unit](https://1drv.ms/b/s!Am6KY0K4fPPagQXgGOfaWSHvO5NG?e=IbNzNd)
 - [x] [C++ Namespace](https://1drv.ms/b/s!Am6KY0K4fPPagQbL57kyvxw-gd_4?e=zeyn4i)
 - [x] [C++ Object Linker](https://1drv.ms/b/s!Am6KY0K4fPPagQdoPiQdW74cbV3k?e=aUeeRs)
+
+### Assignments
+
+#### Assignment 1
+
+```
+#include <iostream>
+
+int main()
+{
+    std::cout << "Line One \n";
+    std::cout << "Line Two \n";
+    std::cout << "Line Three \n";
+    return 0;
+}
+```
+
+#### Assignment 2
+
+```
+/*
+  iostream Header File Content
+  -- cout
+  -- cin
+  -- cerr
+  -- clog
+  -- wcin
+  -- wcout
+  -- wcerr
+  -- wclog
+*/
+```
+
+#### Assignment 3
+
+```
+#include <iostream>
+
+int main()
+{
+    std::cout << "I am learning Programming \n with \n Elzero \n Web\n School \n <3";
+}
+```
+
+#### Assignment 4
+
+```
+#include <iostream>
+
+int main()
+{
+    std::cout << "|=======================|\n";
+    std::cout << "|== Elzero Web School ==|\n";
+    std::cout << "|==        C++        ==|\n";
+    std::cout << "|=======================|\n";
+}
+```
+
+#### Assignment 5
+
+```
+// Any Details About the file
+#include <iostream> //Preprocessor Directive
+int main()
+{
+    std::cout << "Line One\n"; // Character Output
+    std::cout << "Line Two\n";
+    std::cout << "Line Three\n";
+    return 0;
+}
+```
