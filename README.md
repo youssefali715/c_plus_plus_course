@@ -82,3 +82,12 @@ Source:
 - C++ Comments - Programiz. https://www.programiz.com/cpp-programming/comments.
 - C++ Comments | C-style comments in C++ - Scaler Topics. https://www.scaler.com/topics/cpp/comments-in-cpp/.
 - Comments - cppreference.com. https://en.cppreference.com/w/c/comment.
+
+### Search Results
+
+- [x] [C++ iostream](https://1drv.ms/b/s!Am6KY0K4fPPagQJF0FeYiCb78cDP?e=hvUnQH)
+- [x] [C++ Compiler](https://1drv.ms/b/s!Am6KY0K4fPPagQPvwTy6juCB7Yi9?e=qGBUU3)
+- [x] [C++ Debugger](https://1drv.ms/b/s!Am6KY0K4fPPagQRSSNCAPazIJ_JG?e=hQyM8K)
+- [x] [C++ Translation Unit](https://1drv.ms/b/s!Am6KY0K4fPPagQXgGOfaWSHvO5NG?e=IbNzNd)
+- [x] [C++ Namespace](https://1drv.ms/b/s!Am6KY0K4fPPagQbL57kyvxw-gd_4?e=zeyn4i)
+- [x] [C++ Object Linker](https://1drv.ms/b/s!Am6KY0K4fPPagQdoPiQdW74cbV3k?e=aUeeRs)
