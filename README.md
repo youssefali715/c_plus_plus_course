@@ -279,3 +279,5 @@ Calaculate your age Application
 ### Search Results:
 
 - [ ] [Static Typed Language VS. Dynamic Typed Language]()
+- [ ] [C++ Variables Input And Output]()
+- [ ] [C++ Variables Use Cases]()
