@@ -503,3 +503,37 @@ int main()
 }
 
 ```
+
+## Week 3
+
+### Lesson 16
+
+#### Data Types:
+
+- Integer `int`
+  Integer is a number that doesn't contain any decimals and It's a clear number such as: `50` `25` `100` and so on.
+- Float `float` and Double `double`
+  Both of them are numbers that have decimals such as: `3.14` but the float is limited to 7 decimals only but the double is limited to 15 decimals so if you have a number that you do an operation on it and doesn't know what will it be so it's recommended to use double
+- String `string`
+  Notice that the color of the `string` is not the same color as `int` or `float` in the editor, This is because string is not a built-in data type but it is user defined by the library `iostream` [Read More](https://stackoverflow.com/questions/5388685/c-is-string-a-built-in-data-type)
+- Character `char`
+  This type can include only one character of any type
+
+:warning: There is also some types that Mr.Osama didn't talk about, such as:
+
+- void `void`
+  Void means without any value. void data type represents a valueless entity. A void data type is used for those function which does not return a value.
+
+- Wide Character `wchar_t`
+  Wide character data type is also a character data type but this data type has a size greater than the normal 8-bit data type. Represented by wchar_t. It is generally 2 or 4 bytes long.
+
+[Data Types is a very big ocean, You can learn more about data types from here](https://www.geeksforgeeks.org/cpp-data-types/)
+
+#### Operators and Operands
+
+#### Determinators of choosing Data Types
+
+1. Operations
+   According to the type of opertions, you would choose the type of data you use. As you can't divide an integer on a string and you can't repeat an integer but you can repeat string.
+2. Size of Data
+   According to the size of data, you would choose the type of data you use. This leads us to the Lesson 17
