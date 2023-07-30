@@ -559,3 +559,5 @@ int main()
   - `bool` takes 1 byte
 
 #### Application
+
+[Convert Kilobytes to Bytes to Bits](https://github.com/youssefali715/c_plus_plus_course/blob/main/kb_to_bytes_to_bits.cpp)
