@@ -531,9 +531,31 @@ int main()
 
 #### Operators and Operands
 
+[Learn More About C++ Operators and Operands from here](https://1drv.ms/b/s!Am6KY0K4fPPagU9QbwdvgyoB6jEN?e=hbxXaG)
+
 #### Determinators of choosing Data Types
 
 1. Operations
    According to the type of opertions, you would choose the type of data you use. As you can't divide an integer on a string and you can't repeat an integer but you can repeat string.
 2. Size of Data
    According to the size of data, you would choose the type of data you use. This leads us to the Lesson 17
+
+### Lesson 17
+
+- Our program deosn't store the data in the Hard Disk but it saves it in the **RAM** (**R**andom **A**cess **M**emory).
+- Computer Memory is divided into locations that our program saves data in it.
+- To find the location of your data in your memory, Add the bitwise operator `&`.
+- You can mix between C++ as a static typed language and dynamic typed language by declaring a variable using `auto` keyword
+  - Notice that you must add a value to the variable as the language isn't powered by Chat GPT, It can't Predict the type of data in it.
+
+![Data Syzes in Computer](https://am3pap005files.storage.live.com/y4mgp64nF2elYk-oB54kGHz3uHsxdRJDy0UOfx8uzObfrFEt1pqlEUM8DWsSOVYyVx906phCfdAJYT3eZ2qkYwka22DLYZ8dbhy6sj3FZXJkczISzq-YJvwUpqc-Xc0glf02Wrke1gZjCNgUaraIf-pr26hAXMeDQtz6c6VDtnL53V4uEZfOBPfGDqfQfFfJftz?encodeFailures=1&width=318&height=841)
+
+- Our data is reserved in storage with bytes
+  - `int` takes 2 or 4 bytes
+    C++ is a general-purpose programming language that can be used on a variety of platforms, including Windows, macOS, Linux, and many others. The size of an `int` in C++ is platform-dependent and can vary between 2 or 4 bytes. The exact size is determined by the implementation and can depend on factors such as the hardware architecture and the operating system².
+  - `float` takes 4 bytes
+  - `double` takes 8 bytes
+  - `char` takes 1 byte
+  - `bool` takes 1 byte
+
+#### Application
