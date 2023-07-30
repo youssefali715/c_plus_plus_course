@@ -561,3 +561,22 @@ int main()
 #### Application
 
 [Convert Kilobytes to Bytes to Bits](https://github.com/youssefali715/c_plus_plus_course/blob/main/kb_to_bytes_to_bits.cpp)
+
+### Lesson 18
+
+- Data is divided into 3 main types, Premitive / Primary & Derived & User-Defined. Look at the following image:
+  ![Data Types in C++](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191113115600/DatatypesInC.png)
+
+Today, We will talk about Integer
+
+#### What is Integer?
+
+An integer is a whole number, including positive numbers, negative numbers, and zero. Here are some examples of integers: 1, 2, -3, 0, 100, -500. The set of integers is denoted by the symbol Z.
+
+#### Limits
+
+There are limits for Integers in C++ [Here's a document that explain why there's a limit for Integers in C++](https://1drv.ms/b/s!Am6KY0K4fPPagVj6EjUIE1vQViQd?e=b6RaME). However, You can use `INT_MIN` and `INT_MAX` to know the limits. These Values are declared by `#define` in `limits.h` file.
+
+#### endl; VS. \n
+
+[Here's a document to expalin the difference between them](https://1drv.ms/b/s!Am6KY0K4fPPagVrSVvypRY1b7B-Q?e=ahyXBM)
