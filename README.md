@@ -580,3 +580,25 @@ There are limits for Integers in C++ [Here's a document that explain why there's
 #### endl; VS. \n
 
 [Here's a document to expalin the difference between them](https://1drv.ms/b/s!Am6KY0K4fPPagVrSVvypRY1b7B-Q?e=ahyXBM)
+
+### Lesson 19 (Double and float)
+
+#### Why we declare Variable Data Type?
+
+The basic answer is to increase Performance, but how? We are talking about 2 and 4 bytes. Computer now have 16 Gigs of RAM. Does it matter for us to declare variable data type. [Here is a document that explains this point](https://1drv.ms/b/s!Am6KY0K4fPPagVvBNLuQSeyukp4n?e=KWHHAW)
+
+#### Truncation
+
+Truncation basically is removing the fractional component from a number. This process is operated automatically when you put float or double in an integer. [You can learn more about Truncation from here](https://1drv.ms/b/s!Am6KY0K4fPPagVzTj9eeZTuc_sJp?e=gHsWfP)
+
+- You can add Integer to a float var. An integer is not considered a float in the traditional sense. A float is a number that has a decimal point, while an integer does not. However, in many programming languages, an integer can be implicitly converted to a float when it is used in an operation that requires a float. This means that the integer will be converted to a float before the operation is performed, and the result of the operation will be a float.
+- When we use auto or when we add two integrs, we want to male sure that they are float by adding the suffix `f`
+
+### Lesson 20 `char`
+
+- A character is put in single quotes `''` not in double quotes `""`
+- Every Character has an ASCII Value [If you want to know more about ASCII and why we created it, Click here](https://1drv.ms/b/s!Am6KY0K4fPPagV1HmrEKOKFBguwl?e=tzbxSC)
+
+### Search Results
+
+- [x] [Type Casting](https://1drv.ms/b/s!Am6KY0K4fPPagV6REDyA4CMONnB9?e=osFthH)
