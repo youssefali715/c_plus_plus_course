@@ -600,6 +600,7 @@ Truncation basically is removing the fractional component from a number. This pr
 - Every Character has an ASCII Value [If you want to know more about ASCII and why we created it, Click here](https://1drv.ms/b/s!Am6KY0K4fPPagV1HmrEKOKFBguwl?e=tzbxSC)
 
 [Convert Int to ASCII App](https://github.com/youssefali715/c_plus_plus_course/blob/main/int_to_ASCII.cpp)
+
 [Convert ASCII to INT App](https://github.com/youssefali715/c_plus_plus_course/blob/main/ASCII_to_int.cpp)
 
 ### Search Results
