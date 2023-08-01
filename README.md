@@ -603,6 +603,49 @@ Truncation basically is removing the fractional component from a number. This pr
 
 [Convert ASCII to INT App](https://github.com/youssefali715/c_plus_plus_course/blob/main/ASCII_to_int.cpp)
 
-### Search Results
+### Lesson 21 `bool` and `void`
 
-- [x] [Type Casting](https://1drv.ms/b/s!Am6KY0K4fPPagV6REDyA4CMONnB9?e=osFthH)
+#### Boolean Data Type
+
+- Boolean data type in js is explained in two keywords: `true` and `false`.
+- :radioactive: The keywords are case-sensitive.
+- [Here is a document that expalins why could i use the number value of a boolean data type variable?](https://1drv.ms/b/s!Am6KY0K4fPPagV-zUmkixzzM2zBe?e=ioDucV)
+- You can put a condition as a value for a boolean variable and the result will be outputed according to the result of the condition.
+
+#### Void
+
+Void means without any value. void data type represents a valueless entity. A void data type is used for those function which does not return a value.
+
+### Leeson 22 (Type Modifiers and Type Alias)
+
+- Type Modifiers are made to modify the length of data.
+  Sure, here are some use cases for type modifiers in C++:
+- Here are use cases for Type Modifiers in C++:
+
+  - **To specify the size of a data type:** The `short` and `long` modifiers can be used to specify the size of a data type. For example, `short int` is a smaller data type than `int`, and `long int` is a larger data type than `int`.
+  - **To specify the signedness of a data type:** The `signed` and `unsigned` modifiers can be used to specify the signedness of a data type. A `signed` data type can store both positive and negative numbers, while an `unsigned` data type can only store positive numbers.
+  - **To improve the readability and understandability of code:** Type modifiers can be used to improve the readability and understandability of code. For example, if you are using a `short int` to store a small number, you can use the `short` modifier to make it clear to the reader that the number is small.
+  - **To enforce good programming practices:** Type modifiers can be used to enforce good programming practices. For example, you might use the `const` modifier to ensure that a variable cannot be changed after it is initialized.
+
+  Here are some examples of how type modifiers can be used in C++:
+
+  ```c++
+  short int my_short_variable; // A small integer variable
+  long int my_long_variable; // A large integer variable
+  unsigned int my_unsigned_variable; // An unsigned integer variable
+  const int my_constant_variable = 10; // A constant integer variable
+  ```
+
+- A type alias in C++ is a way of giving a new name to an existing data type. This can be useful for making your code more readable and easier to understand.
+- Another reason to use type aliases is to make your code more flexible. For example, let's say you have a function that takes an int as an argument. You could create a type alias called my_integer that is a synonym for int. This would allow you to pass any type that can be implicitly converted to an int to the function.
+- There are two ways to write a type alias:
+  1.  `using [Identifier] [Assignmnet Operator] [type]`
+      Example:
+      `using BigNum = long long int`
+  2.  `typedef [type] [Identifier]`
+      Example:
+      `typedef long long int BigNum`
+
+### Lesson 23
+
+[Type Casting](https://1drv.ms/b/s!Am6KY0K4fPPagV6REDyA4CMONnB9?e=osFthH)
