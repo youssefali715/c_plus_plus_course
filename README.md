@@ -1278,3 +1278,108 @@ default:
 - [x] [Award System Application](https://github.com/youssefali715/c_plus_plus_course/blob/main/award_sys.cpp)
 - [x] [Discount Application](https://github.com/youssefali715/c_plus_plus_course/blob/main/discount.cpp)
 - [x] [Simple Calculator](https://github.com/youssefali715/c_plus_plus_course/blob/main/calc_v2.cpp)
+
+### Assignments
+
+#### Assignment 1
+
+```
+#include <iostream>
+using namespace std;
+int main()
+{
+	cout << "========================\n===== Life Events ======\n========================\n";
+
+	int num;
+	cout << "Enter the year: ";
+	cin >> num;
+
+	switch (num)
+	{
+	case 1982:
+		cout << "My Birth Day";
+		break;
+	case 1989:
+		cout << "My First Work";
+		break;
+	case 1995:
+		cout << "Windows 95";
+		break;
+	case 2000:
+		cout << "Windows Millennium";
+		break;
+	case 2002:
+		cout << "Created My vBulletin Forum";
+		break;
+	default:
+		cout << "No Events in This Year";
+		break;
+	}
+}
+```
+
+#### Assignment 2
+
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int day;
+	cin >> day;
+
+	switch (day)
+	{
+	case 1:
+	case 2:
+	case 3:
+		cout << day << " Shop Is Open";
+		break;
+	case 4:
+	case 5:
+		cout << day << " Shop Is Closed";
+		break;
+	default:
+		cout << "Day Is Not Valid";
+	}
+
+	return 0;
+}
+```
+
+#### Assignment 3
+
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int num;
+	cin >> num;
+
+	switch (num)
+	{
+	case 10:
+		cout << "Case 1";
+		break;
+	case 19:
+	case 20:
+	case 21:
+		cout << "Case 2";
+		break;
+	case 29:
+	case 30:
+	case 31:
+	case 32:
+	case 33:
+		cout << "Case 3";
+		break;
+	default:
+		cout << "Invalid Number";
+		break;
+	}
+	return 0;
+}
+```
