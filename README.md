@@ -1412,3 +1412,25 @@ The index of last element = No. of elements -1
 #### Getting the length of an array
 
 sizeOf(array) / sizeOf (array[0])
+
+### Lesson 41 (2D Array)
+
+- A 2D array is an array with rows and columns like MS Excel
+
+#### Syntax
+
+`dataType varName [No. of Rows] [No. of columns] = {{}, {}, {}}`
+
+### Lesson 42
+
+`int points[4] = {1,2,3,4}` --> c-style-array
+Preferred Method:
+`std::array <dataType, size> Identifier = {1,2,3,4};`
+This method allows us to use various methods in the array class like:
+
+1. array.fill(value) // Fill all the values with another values
+2. array.front() // Brings the first element
+3. array.back() // Brings the last element
+4. array.at() // Brings specific element
+5. array.size() // Brings the length
+6. array.empty() // Checks if the array is empty or not
