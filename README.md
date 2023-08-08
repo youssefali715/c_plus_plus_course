@@ -1421,7 +1421,7 @@ sizeOf(array) / sizeOf (array[0])
 
 `dataType varName [No. of Rows] [No. of columns] = {{}, {}, {}}`
 
-### Lesson 42
+### Lesson 42 & 43
 
 `int points[4] = {1,2,3,4}` --> c-style-array
 Preferred Method:
@@ -1434,3 +1434,29 @@ This method allows us to use various methods in the array class like:
 4. array.at() // Brings specific element
 5. array.size() // Brings the length
 6. array.empty() // Checks if the array is empty or not
+
+### Lesson 44
+
+[Guess the number game]()
+
+### Lesson 45 & 46 (String & Concatenation)
+
+- String is array of Characters
+- The combiler adds `\0` to terminate the string
+
+#### Syntax
+
+`char str[] = "YA";`
+OR
+`char str[] = {'Y', 'A'};`
+OR
+`string str = "YA";`
+
+#### Concatenation
+
+- You must include the library `string.h`
+  `strcat(str1, str2);`
+  OR
+  `str1 + str2`
+  OR
+  `str1.append(str2)`
