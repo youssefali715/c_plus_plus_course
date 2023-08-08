@@ -1383,3 +1383,32 @@ int main()
 	return 0;
 }
 ```
+
+## Week 6
+
+### Lesson 38 & 39 & 40(Arrays)
+
+1. It is a collection of dat of the same type
+2. The data is placed in contguos memory locations
+3. We can achieve certain elements by indexing
+4. C++ is a zero-based-indexing language
+
+#### Syntax
+
+`[dataType] [varName] [No. of elements](optional) =(optional) {ele1, ele2, ele3, ....}`
+
+- :radioactive: The size of data depends on no. of elements
+
+#### Acessing elements
+
+`varName [no.]`
+
+The index of last element = No. of elements -1
+
+#### Adding & Updating elements
+
+`varName [index no.] = value`
+
+#### Getting the length of an array
+
+sizeOf(array) / sizeOf (array[0])
