@@ -139,7 +139,46 @@ for (int i = num1+1; i < num2; i++)
      }
 ```
 # Assignment 9
+```
+     string friends[] = {"Ahmed", "Mohamed", "Sayed", "Gamal"};
+     // Method 1
+     for (int i = 1; i < 3;i++)
+     {    
+          cout << friends[i] << endl;
+     }
+     
+     // Method 2
+     int i = 1;
+     while (i < 3)
+     {
+          cout << friends[i] << endl;
+          i++;
+     }
+```
 # Assignment 10
+```
+     string friends[] = {"Ahmed", "Mohamed", "ameer", "Ashraf", "Amany"};
+     // Method 1
+     for (int i = 0; i < 5;i++)
+     {
+          if (friends[i][0] != 'A'){
+               continue;
+          }
+               cout << friends[i] << endl;
+     }
+     
+     // Method 2
+     int i = -1;
+     while (i < 5)
+     {
+          i++;
+          if (friends[i][0] != 'A')
+          {
+          continue;
+          }
+          cout << friends[i] << endl;
+     }
+```
 # Assignment 11
 # Assignment 12
 # Assignment 13
